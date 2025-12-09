@@ -14,6 +14,7 @@ def feladat_kiiras(jatekvege):
 
 def terkep(lista,jatekvege):
     if jatekvege==0:
+        print("-"*200)
         print(f"Kerités {"Postaláda":>10} {"Bejárat":>10} {"Konyha":>10} {"Lépcső alja":>15} {"Lépcső teteje":>20} {"Dolgozószoba":>15} {"Nappali":>10} {"Labor":>10} {"Erkély":>10} {"Titkos folyosó":>20}")
         print(f"Tábla {"Levél":>10} {"Kulcs":>11} {"Húsi":>23} {"Zseblámpa":>38} {"Gipsz gyümi":>15} {"Kötél":>18} {"Kincs":>15}")
         print(f"Leltár: {lista}")
